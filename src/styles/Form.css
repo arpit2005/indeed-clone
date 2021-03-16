@@ -1,0 +1,46 @@
+.input-box-container {
+    position: relative;
+}
+
+.input-box-pretext {
+    position: absolute; 
+    top: 0; 
+    left: 15px; 
+    font-size: 16px; 
+    font-weight: 600
+}
+
+.input-box {
+    width: 380px; 
+    padding: 11px; 
+    padding-left: 75px; 
+    border-radius: 6px; 
+    border: 1px solid rgba(0,0,0,0.5); 
+    outline: none
+}
+
+.input-box-posticon {
+    position: absolute;
+    top:0;
+    right:20px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.5)
+}
+
+.find-jobs-btn {
+    outline: none;
+    padding: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: #164081;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

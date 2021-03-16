@@ -1,0 +1,117 @@
+.homepage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.no-search-container {
+    margin-top: 38px;
+}
+
+.no-search-text {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.no-search-undo-text {
+    color: #2164F3;
+}
+
+.search-history-container {
+    width: 100%;
+    min-height: 158px;
+    background: #faf9f8;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center; 
+}
+
+.search-history-box span {
+    width: 600px;
+    display: block;
+    padding: 20px;
+    background: white;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.search-history-box {
+    margin-bottom: 62px;
+}
+
+.recent-search-text {
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 18px; 
+}
+
+.search-history-box .fa-angle-right {
+   float: right;
+   font-size: 22px;
+   color: rgba(0,0,0,0.6); 
+}
+
+.employer-text {
+    margin-top: 12px;
+}
+
+.employer-text-highlighted {
+    font-weight: 600;
+    color: #2164F3;
+    cursor: pointer;
+}
+
+.popular-search-container {
+    width: 98%;
+    min-height: 158px;
+    border-top: 2px solid #faf9f8;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-search-box {
+    margin-top: 50px;
+}
+
+.popular-search-text {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.popular-search-category {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.popular-search-category .button{
+    border: none;
+    display: inline-block;
+    margin: 3px 4px;
+    padding: 10px 12px 10px 14px;
+    border-radius: 10px;
+    background-color: #d6d3cf;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.popular-search-category .fa-search{
+    color: rgba(0,0,0,0.7);
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.popular-search-category button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
