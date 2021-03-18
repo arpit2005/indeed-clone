@@ -33,7 +33,7 @@ function SearchPage() {
                     <JobList />
                     <JobList />
                     <JobList />
-                    <JobList />
+                    <JobList /> 
                 </div>
                 <div className="job-details-div">
                     <JobDetailsPanel />
